@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" sizes="32x32" href="img/favicon.png">
+    <link rel="stylesheet" href="css/style.min.css">
+    <title>Catletica | Контакты</title>
+</head>
+
+<body>
+    <div class="wrapper">
+        @@include('html-blocks/header.html')
+        @@include('html-blocks/loader.html')
+        <div class="con-p">
+            <div class="container">
+                <h2 class="con-p__header title">Контакты</h2>
+                <div class="con-p__item">
+                    <h3 class="con-p__title">Адрес</h3>
+                    <div class="con-p__text">г. Киев, ул. Охименка 19, ТРЦ "Украина" (4 этаж)</div>
+                </div>
+                <div class="con-p__item">
+                    <h3 class="con-p__title">Телефон</h3>
+                    <div class="con-p__text">(097) 162-32-54</div>
+                </div>
+                <div class="con-p__item">
+                    <h3 class="con-p__title">E-mail</h3>
+                    <div class="con-p__text">Catleticaua@gmail.com</div>
+                </div>
+                <div class="con-p__item">
+                    <h3 class="con-p__title">Социальные сети</h3>
+                    <div class="con-p__text">
+                        <div class="social__pics contact">
+                            <a href="#" class="social__pic">
+                                <img src="img/icons/facebook.svg" alt="youbute">
+                            </a>
+                            <a href="#" class="social__pic">
+                                <img src="img/icons/youtube.svg" alt="youbute">
+                            </a>
+                            <a href="#" class="social__pic">
+                                <img src="img/icons/viber.svg" alt="youbute">
+                            </a>
+                            <a href="#" class="social__pic">
+                                <img src="img/icons/twitter-sign.svg" alt="youbute">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="con-p__form">
+                    <h2 class="con-p-form__header title">У вас возникли вопросы?</h2>
+                    <div class="con-p__subtitle">Если у вас возникли вопросы, предложения, пожелания или замечания -
+                        воспользуйтесь данной формой. Мы постараемся ответить вам в кратчайшие сроки.</div>
+                    <form action="">
+                        <input type="text" placeholder="Ваше имя">
+                        <input type="email" placeholder="Контактный e-mail">
+                        <input type="tel" placeholder="Контактный телефон">
+                        <textarea name="" id="" cols="30" rows="10" placeholder="Ваше сообщение"></textarea>
+                        <input class="input-btn" type="submit" value="Отправить сообщение">
+                    </form>
+                </div>
+            </div>
+        </div>
+        @@include('html-blocks/footer.html')
+    </div>
+    <script src="js/script.min.js"></script>
+</body>
+
+</html>

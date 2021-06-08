@@ -1,0 +1,117 @@
+.intro
+    height calc(100vh - 150px)
+    position relative
+    min-height 500px
+    top -45px
+    @media(max-width media-big-tb)
+        top 0
+        height calc(100vh - 105px)
+
+// .intro-swiper
+
+.intro__slide
+    object-fit: cover
+    min-width 100%
+    height calc(100vh - 105px)
+    position: relative
+    min-height 500px
+
+.intro__desc 
+    position absolute
+    top 40%
+    left 0
+    transform: translateY(-50%)
+
+.intro__header 
+    text-align center
+    text-transform uppercase
+    background-color rgba(0, 0, 0, 0.6);
+    color: #fff
+    height: 150vh
+    display flex
+    flex-direction: column
+    justify-content center
+    align-items center
+    padding 0 30px
+    cursor: default
+    position relative
+    min-height 600px
+    top 30px
+    @media(max-width media-big-tb)
+        padding 0 15px
+    @media(max-width media-tb)
+        width 100vw
+
+
+.intro__title 
+    font-size 40px
+    line-height 1
+    margin-top 50px
+    @media(max-width 320px)
+        font-size 25px
+    @media(max-width media-big-tb)
+        font-size 30px
+
+.intro__subtitle 
+    font-size 70px
+    font-weight 700
+    line-height 1
+    color: rgb(238, 155, 0)
+    padding 0 15px
+    @media(max-width 320px)
+        font-size 40px
+    @media(max-width media-mb)
+        font-size 50px
+    @media(max-width media-big-tb)
+        font-size 60px
+
+
+
+.intro__subsubtitle 
+    font-size 40px
+    line-height 1
+    margin-bottom 50px
+    @media(max-width 320px)
+        font-size 25px
+    @media(max-width media-big-tb)
+        font-size 30px
+
+
+.intro__detail
+    background-color rgb(238, 155, 0)
+    font-size 14px
+    font-weight 700
+    padding 10px 15px
+    width 130px
+    color: #fff
+    display flex
+    justify-content center
+    align-items center
+    z-index 1
+    box-shadow: 0 0 3px #333
+    transition: background-color .3s ease
+    &:hover
+        background-color secondColor
+
+.intro__train
+    font-size 20px
+    margin-bottom 10px
+    line-height 1
+    margin-top 50px
+    @media(max-width 1200px)
+        font-size 18px
+        
+.intro__online
+    font-size 40px
+    margin-bottom 10px
+    font-weight 700
+    line-height 1
+    color: rgb(238, 155, 0)
+    padding 0 15px
+    @media(max-width media-tb)
+        padding 0 15px
+    @media(max-width 900px)
+        padding 0
+    @media(max-width 1200px)
+        font-size 30px
+    

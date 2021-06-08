@@ -1,0 +1,45 @@
+<header class="header">
+    <div class="header__flex">
+        <div class="header__main">
+            <a href="#" title="Из катлеты в атлеты" class="header__logo">Catletica.<span>ua</span></a>
+            <div class="header__catalog">
+                <div class="header__burger">
+                    <span>Меню</span>
+                </div>
+                <div class="header__catalog-item catalog">
+                    <span>Каталог</span>
+                    @@include('catalog.html')
+                </div>
+            </div>
+        </div>
+        <div class="header__menu">
+            <div class="header__nav">
+                <a href="/CatleticaUA/" class="nav__item active">
+                    <span>Главная</span>
+                </a>
+                <a href="/CatleticaUA/delivery" class="nav__item">
+                    <span>Доставка</span>
+                </a>
+                <a href="/CatleticaUA/pay" class="nav__item">
+                    <span>Оплата</span>
+                </a>
+                <a href="/CatleticaUA/contacts" class="nav__item">
+                    <span>Контакты</span>
+                </a>
+            </div>
+            <div class="header__action callback">
+                <a href="#" class="callback__phone">068 063 03 30</a>
+                <a href="#" class="callback__btn get-callback"><span>Обратный звонок</span></a>
+                <div class="header__search search">
+                    <input type="text" class="search__input" placeholder="Более 14000 товаров">
+                    <button class="search__btn">Найти</button>
+                </div>
+                <a href="#" class="callback__cart">
+                    <span>Корзина</span>
+                    <div class="callback__counter">0</div>
+                </a>
+            </div>
+        </div>
+    </div>
+</header>
+@@include('modals.html')

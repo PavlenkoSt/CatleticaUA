@@ -1,0 +1,39 @@
+.callback-icon 
+    position fixed
+    bottom 10px
+    right 10px
+    background-color: #005aab
+    z-index 1000000
+    width 40px
+    height 40px
+    border-radius: 50%
+    display flex
+    justify-content center
+    align-items center
+    box-shadow: 0 0 5px #333
+    cursor: pointer 
+    @media(min-width 1150px)
+        display none
+    
+
+.callback-link
+    animation-name: phone;
+    animation-duration: 2s;
+    animation-timing-function: ease
+    animation-fill-mode: backwards
+    animation-iteration-count: infinite;
+    img 
+        width 20px
+        height 20px
+
+@keyframes phone{
+    0%{
+        transform: rotate(7deg)
+        }
+    50%{
+        transform: rotate(-7deg)
+        }
+    100%{
+        transform: rotate(7deg)
+        }
+}

@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" sizes="32x32" href="img/favicon.png">
+    <link rel="stylesheet" href="css/style.min.css">
+    <title>Catletica | Оплата</title>
+</head>
+
+<body>
+    <div class="wrapper">
+        @@include('html-blocks/header.html')
+        @@include('html-blocks/loader.html')
+        <div class="pay">
+            <div class="container">
+                <h2 class="pay__header title">СПОСОБЫ ОПЛАТЫ</h2>
+                <div class="pay__flex">
+                    <div class="pay__item">
+                        <div class="pay__img">
+                            <img src="img/icons/globe.svg" alt="globe">
+                        </div>
+                        <div class="pay__info">
+                            <h3 class="pay__title">БАНКОВСКИЙ ПЕРЕВОД</h3>
+                            <div class="pay__text">Перевод на карту Приватбанка</div>
+                        </div>
+                    </div>
+                    <div class="pay__item">
+                        <div class="pay__img">
+                            <img src="img/icons/globe.svg" alt="globe">
+                        </div>
+                        <div class="pay__info">
+                            <h3 class="pay__title">ONLINE-ОПЛАТА</h3>
+                            <div class="pay__pic">
+                                <img src="img/pay/liqpay.png" alt="liqpay">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="pay__item">
+                        <div class="pay__img">
+                            <img src="img/icons/mail.svg" alt="mail">
+                        </div>
+                        <div class="pay__info">
+                            <h3 class="pay__title">НАЛОЖЕННЫЙ ПЛАТЕЖ</h3>
+                            <div class="pay__text">Оплата при получении заказа на почте</div>
+                        </div>
+                    </div>
+                    <div class="pay__item">
+                        <div class="pay__img">
+                            <img src="img/icons/globe.svg" alt="globe">
+                        </div>
+                        <div class="pay__info">
+                            <h3 class="pay__title">БЕЗНАЛИЧНЫЙ РАСЧЕТ</h3>
+                            <div class="pay__text">Не являемся плательщиками НДС</div>
+                        </div>
+                    </div>
+                    <div class="pay__item">
+                        <div class="pay__img">
+                            <img src="img/icons/globe.svg" alt="globe">
+                        </div>
+                        <div class="pay__info">
+                            <h3 class="pay__title">BITCOIN</h3>
+                            <div class="pay__pic">
+                                <img src="img/pay/bitcoin.png" alt="bitcoin">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="pay__item">
+                        <div class="pay__img">
+                            <img src="img/icons/geo.svg" alt="geo">
+                        </div>
+                        <div class="pay__info">
+                            <h3 class="pay__title">НАЛИЧНЫМИ ПРИ ПОЛУЧЕНИИ</h3>
+                            <div class="pay__text">При самовывозе товара из магазина</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        @@include('html-blocks/footer.html')
+    </div>
+    <script src="js/script.min.js"></script>
+</body>
+
+</html>

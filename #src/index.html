@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+    <link rel="icon" type="image/png" sizes="32x32" href="img/favicon.png">
+    <link rel="stylesheet" href="css/style.min.css">
+    <title>Catletica | Главная</title>
+</head>
+
+<body>
+    <div class="wrapper">
+        @@include('html-blocks/header.html')
+        @@include('html-blocks/loader.html')
+        <div class="intro">
+            <div class="intro-swiper swiper-container">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <img src="img/intro-1.jpg" class="intro__slide" alt="intro">
+                        <div class="intro__desc">
+                            <div class="intro__header">
+                                <h1 class="intro__title">Сделаем</h1>
+                                <h2 class="intro__subtitle">Спортзал</h2>
+                                <h3 class="intro__subsubtitle">Под ключ</h3>
+                                <a href="#" class="intro__detail">Детали</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="img/intro-2.jpg" class="intro__slide" alt="intro">
+                        <div class="intro__desc">
+                            <div class="intro__header">
+                                <h1 class="intro__train">Не пропускай тренировки</h1>
+                                <h2 class="intro__online">Тренируйся Онлайн</h2>
+                                <a href="#" class="intro__detail train">Детали</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-pagination"></div>
+            </div>
+        </div>
+        <div class="callback-icon get-callback">
+            <a href="#" class="callback-link">
+                <img src="img/icons/phone.svg" alt="Обратный звонок">
+            </a>
+        </div>
+        <div class="about">
+            <p class="about__main"><b>Спортивный супермаркет "Catletica.ua"</b> предлагает большой ассортимент
+                спортивных товаров оптом
+                и в
+                розницу.</p>
+
+            <p class="about__desc">Неотъемлемыми составляющими жизнедеятельности современного человека являются
+                полезное правильное
+                питание, регулярные занятия спортом со спортивным инвентарем, поддержание здорового образа жизни.
+                Для того чтобы тренировки были максимально эффективными, производители спортивного инвентаря
+                постоянно совершенствуют выпускаемую продукцию, предлагая товары для спорта для женщин, мужчин, а
+                также универсальные модели.</p>
+        </div>
+        <section class="carts">
+            <h2 class="carts__header title">Твои увлечения</h2>
+            <div class="carts__flex">
+                <a href="#" class="carts__item">
+                    <img src="img/carts/run.jpg" class="carts__img" alt="Бег">
+                    <img src="img/carts/" alt="Бег">
+                    <div class="carts__title">Бег</div>
+                </a>
+                <a href="#" class="carts__item">
+                    <img src="img/carts/fitnes.jpg" class="carts__img" alt="Фитнес">
+                    <img src="img/carts/" alt="Фитнес">
+                    <div class="carts__title">Фитнес</div>
+                </a>
+                <a href="#" class="carts__item">
+                    <img src="img/carts/swim.jpg" class="carts__img" alt="Плавание">
+                    <img src="img/carts/" alt="Плавание">
+                    <div class="carts__title">Плавание</div>
+                </a>
+                <a href="#" class="carts__item">
+                    <img src="img/carts/workout.jpg" class="carts__img" alt="Workout">
+                    <img src="img/carts/" alt="Workout">
+                    <div class="carts__title">Workout</div>
+                </a>
+            </div>
+        </section>
+        <section class="popular-products">
+            <div class="container">
+                <h2 class="popular-products__header title">Популярные категории</h2>
+                <div class="popular-products__block">
+                    <div class="popular-products__slider swiper-container">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <div class="popular-products__cart">
+                                    <div class="popular-products__img">
+                                        <div class="popular-products__hover">
+                                            <a href="#" class="popular-products__connect"></a>
+                                            <a href="#" class="popular-products__search"></a>
+                                        </div>
+                                        <img src="img/popular/category-1.jpg" alt="Тренажеры">
+                                    </div>
+                                    <div class="popular-products__content">
+                                        <h3 class="popular-products__title">Тренажеры и оборудование
+                                        </h3>
+                                        <a href="#" class="popular-products__link">Перейти в категорию</a>
+                                        <div class="popular-products__info">Профессиональное оборудование для спортивных
+                                            залов</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="popular-products__cart">
+                                    <div class="popular-products__img">
+                                        <div class="popular-products__hover">
+                                            <a href="#" class="popular-products__connect"></a>
+                                            <a href="#" class="popular-products__search"></a>
+                                        </div>
+                                        <img src="img/popular/category-2.jpg" alt="Единобоства">
+                                    </div>
+                                    <div class="popular-products__content">
+                                        <h3 class="popular-products__title">Единобоства</h3>
+                                        <a href="#" class="popular-products__link">Перейти в категорию</a>
+                                        <div class="popular-products__info">Боксерские груши, мешки, перчатки, лапы,
+                                            бинты,
+                                            капы и другое</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="popular-products__cart">
+                                    <div class="popular-products__img">
+                                        <div class="popular-products__hover">
+                                            <a href="#" class="popular-products__connect"></a>
+                                            <a href="#" class="popular-products__search"></a>
+                                        </div>
+                                        <img src="img/popular/category-3.jpg" alt="Турники">
+                                    </div>
+                                    <div class="popular-products__content">
+                                        <h3 class="popular-products__title">Настенные и дверные турники</h3>
+                                        <a href="#" class="popular-products__link">Перейти в категорию</a>
+                                        <div class="popular-products__info">Пристенные, угловые, дверные и другие виды
+                                            турников</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="popular-products__cart">
+                                    <div class="popular-products__img">
+                                        <div class="popular-products__hover">
+                                            <a href="#" class="popular-products__connect"></a>
+                                            <a href="#" class="popular-products__search"></a>
+                                        </div>
+                                        <img src="img/popular/category-4.jpg" alt="Теннис">
+                                    </div>
+                                    <div class="popular-products__content">
+                                        <h3 class="popular-products__title">Теннисные столы и аксессуары</h3>
+                                        <a href="#" class="popular-products__link">Перейти в категорию</a>
+                                        <div class="popular-products__info">Столы и аксессуары для настольного тенниса
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="popular-products__cart">
+                                    <div class="popular-products__img">
+                                        <div class="popular-products__hover">
+                                            <a href="#" class="popular-products__connect"></a>
+                                            <a href="#" class="popular-products__search"></a>
+                                        </div>
+                                        <img src="img/popular/category-5.jpg" alt="Шведские стенки">
+                                    </div>
+                                    <div class="popular-products__content">
+                                        <h3 class="popular-products__title">Шведские стенки</h3>
+                                        <a href="#" class="popular-products__link">Перейти в категорию</a>
+                                        <div class="popular-products__info">Стенки для детей и взрослых, спортивные
+                                            уголки
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="popular-products__cart">
+                                    <div class="popular-products__img">
+                                        <div class="popular-products__hover">
+                                            <a href="#" class="popular-products__connect"></a>
+                                            <a href="#" class="popular-products__search"></a>
+                                        </div>
+                                        <img src="img/popular/category-6.jpg" alt="Велосипеды">
+                                    </div>
+                                    <div class="popular-products__content">
+                                        <h3 class="popular-products__title">Велосипеды</h3>
+                                        <a href="#" class="popular-products__link">Перейти в категорию</a>
+                                        <div class="popular-products__info">Велосипеды, беговелы, гироборды,
+                                            электросамокаты
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-button-next"></div>
+                </div>
+            </div>
+        </section>
+        <section class="fixed">
+            <div class="container">
+                <div class="fixed__flex">
+                    <h2 class="fixed__title">Нужна консультация?</h2>
+                    <p class="fixed__text">ПРИГЛАШАЕМ ВАС ПОСЕТИТЬ НАШ МАГАЗИН, ГДЕ ВЫ <span
+                            class="fixed__accent">ПОЛУЧИТЕ КВАЛИФИЦИРОВАННУЮ
+                            КОНСУЛЬТАЦИЮ</span> НАШИХ
+                        СПЕЦИАЛИСТОВ
+                        И <span class="fixed__accent">ОСУЩЕСТВИТЕ ПРАВИЛЬНЫЙ ПОДБОР ОБОРУДОВАНИЯ И ИНВЕНТАРЯ.</span></p>
+                    <a href="#" class="fixed__link btn">Задать вопрос</a>
+                </div>
+            </div>
+        </section>
+        <section class="hot">
+            <div class="container">
+                <h2 class="hot__title title">Горячие новинки</h2>
+                <div class="hot__flex">
+                    <div class="hot__item">
+                        <div class="hot__photo">
+                            <div class="hot__hover">
+                                <div class="hot__desc">Гиря - неотъемлемый атрибут любой силовой и функциональной
+                                    тренировки. Эти гири выдерживают самые интенсивные нагрузки, долговечны и имеют
+                                    сдержанный дизайн.
+                                    Устойчивость на поверхности обеспечивает плоское основание.</div>
+                                <a href="#" class="hot__go">Перейти к товару</a>
+                            </div>
+                            <img src="img/news/2.jpg" alt="product">
+                        </div>
+                        <a href="#" class="hot__name">Гиря Reebok 32 kg Kettlebell RSWT-12332</a>
+                        <div class="hot__price"><span>4650грн</span> 3999грн</div>
+                        <div class="hot__sale">-15%</div>
+                    </div>
+                    <div class="hot__item">
+                        <div class="hot__photo">
+                            <div class="hot__hover">
+                                <div class="hot__desc">Новая малогабаритная электическая беговая дорожка, которая
+                                    объединяет в
+                                    себе стильный дизайн, функционал и демократичную стоимость.</div>
+                                <a href="#" class="hot__go">Перейти к товару</a>
+                            </div>
+                            <img src="img/news/1.jpg" alt="product">
+                        </div>
+                        <a href="#" class="hot__name">Беговая дорожка Fitex IMT7730</a>
+                        <div class="hot__price"><span>16580грн</span> 14999грн</div>
+                        <div class="hot__sale">-12%</div>
+                    </div>
+                    <div class="hot__item">
+                        <div class="hot__photo">
+                            <div class="hot__hover">
+                                <div class="hot__desc">Данная скакалка регулируется по длине, подстраиваясь под
+                                    антропометрические данные спортсмена. Ручки имеют эргономичную форму для удобного
+                                    хвата и резиновое покрытие, препятствующее выскальзывание.</div>
+                                <a href="#" class="hot__go">Перейти к товару</a>
+                            </div>
+                            <img src="img/news/3.jpg" alt="product">
+                        </div>
+                        <a href="#" class="hot__name">Скакалка Reebok Jump Rope RARP-11082CY</a>
+                        <div class="hot__price"><span>1080грн</span> 799грн</div>
+                        <div class="hot__sale">-20%</div>
+                    </div>
+                    <div class="hot__item">
+                        <div class="hot__photo">
+                            <div class="hot__hover">
+                                <div class="hot__desc">Reebok Elite Yoga Mat RSYG-16022 - первый коврик из экологически
+                                    чистых материалов в линейке Reebok, безупречный аксессуар для поддержки вашего тела
+                                    в удобном положении при любых позициях йоги. </div>
+                                <a href="#" class="hot__go">Перейти к товару</a>
+                            </div>
+                            <img src="img/news/5.jpg" alt="product">
+                        </div>
+                        <a href="#" class="hot__name">Мат для йоги Reebok Elite Yoga Mat RSYG-16022</a>
+                        <div class="hot__price"><span>1520грн</span> 1299грн</div>
+                        <div class="hot__sale">-22%</div>
+                    </div>
+                    <div class="hot__item">
+                        <div class="hot__photo">
+                            <div class="hot__hover">
+                                <div class="hot__desc">Тренажер для пресса Ab Coaster PS 500 используется для занятий
+                                    дома, в фитнес-студиях, гостиницах с тренажерными залами, а также в других
+                                    коммерческих целях с небольшой нагрузкой.</div>
+                                <a href="#" class="hot__go">Перейти к товару</a>
+                            </div>
+                            <img src="img/news/6.jpg" alt="product">
+                        </div>
+                        <a href="#" class="hot__name">Тренажер для пресса AB Coaster PS500</a>
+                        <div class="hot__price"><span>14200грн</span> 12999грн</div>
+                        <div class="hot__sale">-8%</div>
+                    </div>
+                    <div class="hot__item">
+                        <div class="hot__photo">
+                            <div class="hot__hover">
+                                <div class="hot__desc">Модель предназначена для людей с Начальным уровнем физической
+                                    подготовки, для девушек занимающихся фитнесом или же идеально подойдет в качестве
+                                    небольшого, дополнительного утяжеления в силовых упражнениях.</div>
+                                <a href="#" class="hot__go">Перейти к товару</a>
+                            </div>
+                            <img src="img/news/4.jpg" alt="product">
+                        </div>
+                        <a href="#" class="hot__name">Гантель с мягкой ручкой Reebok RAWT-11061BL 1 кг</a>
+                        <div class="hot__price"><span>890грн</span> 599грн</div>
+                        <div class="hot__sale">-17%</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        @@include('html-blocks/footer.html')
+    </div>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="js/script.min.js"></script>
+</body>
+
+</html>

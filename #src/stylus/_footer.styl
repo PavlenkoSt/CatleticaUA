@@ -1,0 +1,356 @@
+.footer {
+    box-shadow: 0 -2px 2px #333
+}
+
+.footer__flex 
+    display flex
+    flex-direction: column
+
+
+.footer__services-line 
+    background-color mainColor
+    width 100%;
+    padding: 30px 15px
+    cursor default
+    @media(max-width media-big-tb)
+        padding-bottom 10px
+
+.footer__services-flex
+    display: flex 
+    justify-content: space-between
+    align-items: center
+    @media(max-width media-big-tb)
+        flex-wrap: wrap
+
+.footer__services-item 
+    display flex
+    align-items: center
+    padding: 0 15px
+    @media(max-width media-big-tb)
+        width 50%
+        flex-direction: column
+        justify-content center
+        align-items center
+        margin-bottom 20px
+    @media(max-width 460px)
+        width 100%
+        padding 0 15px
+
+.footer__services-pic
+    height 50px
+    margin-right: 10px
+    @media(max-width media-big-tb)
+        margin-right 0
+        margin-bottom 5px
+
+.footer__services-text 
+    color #fff
+    text-transform uppercase
+    font-size 14px
+    font-weight 700
+
+.footer__info-line 
+    padding 30px 0 20px
+
+.footer__info-flex
+    display flex
+    justify-content space-between
+    @media(max-width 800px)
+        flex-wrap: wrap
+
+.footer__hotline 
+    display flex
+    flex-direction column
+    padding 0 15px
+    @media(max-width 800px)
+        width 100%
+        align-items center
+        margin-bottom 30px
+    @media(max-width media-mb)
+        margin-bottom 20px
+
+.hotline__title 
+    font-size 13px
+    font-weight 400
+    text-transform uppercase
+    color: #4e4e4e;
+    margin-bottom 10px
+    @media(max-width 800px)
+        margin-bottom 0
+
+.hotline__phone 
+    font-size 20px
+    color: #333
+    transition all ease .2s
+    @media(min-width media-big-tb)
+        &:hover
+            color mainColor
+    @media(max-width media-mb)
+        font-size 24px
+
+.hotline__mail 
+    font-size 15px
+    color: #333
+    transition all ease .2s
+    @media(min-width media-big-tb)
+        &:hover
+            color mainColor
+    @media(max-width media-mb)
+        font-size 18px
+
+.footer__support 
+    padding 0 15px
+    display: flex
+    flex-direction: column
+    @media(max-width 640px)
+        width 50%
+        align-items center
+        margin-bottom: 20px;  
+    @media(max-width media-mb)
+        width 100%
+
+.footer__title 
+    color: #4e4e4e;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 1.5px;
+    line-height: 19px;
+    text-transform: uppercase;
+    font-weight: 500
+    margin-bottom 10px
+    @media(max-width media-mb)
+        margin-bottom 5px
+        font-size 20px
+        line-height 25px
+
+.footer__link 
+    font-size: 12px;
+    line-height: 25px;
+    color #55595c
+    transition all ease .2s
+    @media(min-width media-big-tb)
+        &:hover
+            color mainColor
+    @media(max-width 640px)
+        font-size 15px
+    @media(max-width media-mb)
+        font-size 18px
+        line-height 30px
+
+.footer__about 
+    padding 0 15px
+    display: flex
+    flex-direction: column
+    @media(max-width 640px)
+        width 50%
+        align-items center
+        margin-bottom: 20px;
+    @media(max-width media-mb)
+        width 100%
+
+.footer__legal 
+    padding 0 15px
+    display: flex
+    flex-direction: column
+    @media(max-width 640px)
+        width 50%
+        align-items center
+    @media(max-width media-mb)
+        width 100%
+        margin-bottom 20px
+
+.footer__leaders 
+    padding 0 15px
+    display: flex
+    flex-direction: column
+    @media(max-width 640px)
+        width 50%
+        align-items center
+    @media(max-width media-mb)
+        width 100%
+
+.footer__social-info 
+    border-top: 1px solid hsla(0,0%,44%,.14)
+    border-bottom: 1px solid hsla(0,0%,44%,.14)
+    padding 20px 0 20px
+
+.footer__social-flex
+    display: flex
+    justify-content: space-between
+    @media(max-width 850px)
+        flex-wrap: wrap
+    
+.footer__social 
+    display: flex
+    align-items center
+    padding 0 15px
+    @media(max-width 850px)
+        width 100%
+        justify-content center
+        margin-bottom 10px
+    @media(max-width 380px)
+        flex-direction: column
+        margin-bottom 20px
+
+.social__text 
+    color: #4e4e4e
+    font-size: 14px
+    font-weight: 700
+    letter-spacing: 1.5px
+    line-height: 19px
+    margin-bottom: 0
+    text-transform: uppercase
+    margin-right: 10px
+    @media(max-width 380px)
+         margin-right 0
+         margin-bottom 5px
+
+.social__pics 
+   display: flex
+   @media(max-width 380px)
+       width 100%
+       justify-content space-around
+
+.social__pic 
+    height 25px
+    margin-right: 5px
+    &:last-child
+        margin-right: 0
+    @media(min-width media-big-tb)
+        &:hover
+            img 
+                transform: scale(1.1)
+    img
+        height 100%
+        width auto
+        transition all ease .1s
+    @media(max-width 850px)
+        height 35px
+    @media(max-width 380px)
+        height 40px
+
+.footer__visa 
+    display: flex
+    align-items center
+    padding 0 15px
+    @media(max-width 850px)
+        width 100%
+        justify-content center
+        margin-bottom 10px
+    @media(max-width 380px)
+        flex-direction: column
+        margin-bottom 20px 
+
+.visa__text 
+    color: #4e4e4e;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 1.5px;
+    line-height: 19px;
+    margin-bottom: 0;
+    text-transform: uppercase;
+    margin-right: 10px
+    @media(max-width 380px)
+         margin-right 0
+         margin-bottom 5px
+
+.visa__pics
+    display flex
+
+.visa__pic
+    height 30px
+    margin-right 5px
+    img
+        height 100%
+        width auto
+        &:last-child
+            margin-right: 0
+    @media(max-width 850px)
+        height 50px
+   
+
+.footer__bitcoin 
+    display: flex
+    align-items center
+    padding 0 15px
+    @media(max-width 850px)
+        width 100%
+        justify-content center
+    @media(max-width 380px)
+        flex-direction: column
+
+
+.bitcoin__text 
+    color: #4e4e4e;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 1.5px;
+    line-height: 19px;
+    margin-bottom: 0;
+    text-transform: uppercase;
+    margin-right: 10px 
+@media(max-width 380px)
+        margin-right 0
+        margin-bottom 5px
+
+.bitcoin__pic
+    height 30px
+    img
+        height 100%
+        width auto
+    @media(max-width 850px)
+        height 50px
+
+.footer__copyright 
+    text-align: center
+    font-size: 12px
+    color: #55595c
+    padding 20px 15px
+
+.footer__banner 
+    background-color mainColor
+    padding 75px 0
+    @media(max-width 460px)
+        padding 40px 0
+
+.footer__banner-flex
+    display flex
+    flex-direction: column
+    
+.footer__text 
+    color: #fff;
+    font-size: 35px;
+    font-style: italic;
+    line-height: 45px;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+    text-align center
+    cursor default
+    padding 0 15px
+    @media(max-width 800px)
+        font-size 28px
+        margin-bottom 20px
+    @media(max-width 460px)
+        font-size 24px
+        line-height 35px
+        padding 0 5px
+    @media(max-width 350px)   
+        font-size: 20px;    
+        line-height: 30px;
+
+.footer__logo 
+    background-color #fff
+    color mainColor
+    font-size 80px
+    font-weight 700
+    text-align center
+    padding 0 15px
+    cursor default
+    text-transform uppercase
+    span 
+        color secondColor
+    @media(max-width 800px)
+        font-size 60px
+    @media(max-width 460px)
+        font-size 40px
+
